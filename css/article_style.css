@@ -1,0 +1,370 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Better box model */
+* { box-sizing: border-box; }
+
+
+/*----------------------------------------------------------------------*
+
+	General Styles
+
+*----------------------------------------------------------------------*/
+
+
+
+body {
+
+background: #006BFF;
+
+}
+
+h1,h2,h3 {
+    
+    font-family: 'Space Mono', monospace;
+ 
+}
+
+p {
+font-family: 'Space Mono', monospace;
+}
+
+em{
+    font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #006BFF; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FF818F; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+
+/* NAVIGATION */
+
+nav {
+    position: fixed;
+    margin-left: 0px;
+    top: 0;
+    width: 110%;
+    height: auto;
+    z-index: 1;
+
+}
+
+nav img{
+   
+position: absolute;
+width: 20%;
+height: auto;
+align-items: center;
+z-index: 1;
+    
+}
+
+.nav_links  {
+    
+display: inline-block;
+position: relative;
+color: #092530;
+font-weight: bold;
+background: #FADE00;  
+margin: 0px 2px;
+padding: 17px 20px;
+    
+}
+
+#a1.nav_links {
+    
+padding-left: 30%;
+margin-left: 0px;
+    
+}
+
+
+a {
+font-family: 'Space Mono', monospace;
+text-decoration: none;
+}
+
+
+
+a:hover {
+    background: #092530;
+    color: white;
+    
+/*    #092530*/
+	
+}
+
+
+.article_content{
+    position: relative;
+    width: 55%;
+    height: 595px;
+    margin-left: 25%;
+    background: #092530;
+    box-shadow: 3px 3px 3px rgba(50,50,50,.5); 
+    overflow-y: scroll;
+    border-bottom: solid 2px #092530;
+    border-left: solid 2px #092530; 
+    border-right: solid 2px #092530;
+}
+
+
+
+.tab_txt{
+    position: absolute;
+    background: #092530;
+    color: white;
+    font-size: 10px;
+    margin-left: 23.8%;
+    width: 52.2%;
+    padding: 3px 0px 6px 6px;
+    z-index: 1;
+}
+
+#tab_txt_headline{
+    position: absolute;
+    background: #092530;
+    color: white;
+    font-size: 10px;
+    width: 100%;
+    padding: 3px 0px 6px 6px;
+}
+
+
+
+#body_copy{
+    position: relative;
+    padding: 25px;
+    padding-left: 50px;
+    font-size: 14px;
+    line-height: 1.5;
+    width:  95%;
+    color: #d2d6ea;
+    
+}
+
+.article_body img{
+    float:right;
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.article_head h1, .article_head h3{
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.article_head h1{
+    margin: 10px 20px 5px 5px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+}
+
+.article_head h3{
+    margin: 35px 5px 10px 20px;
+}
+
+.article_headline{
+    position: relative;
+    width: 50%;
+    height: 120px;
+    margin-top: 5.5%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    border-bottom: solid 2px #092530;
+    border-left: solid 2px #092530; 
+    border-right: solid 2px #092530; 
+    box-shadow: 3px 3px 3px rgba(50,50,50,.5); 
+}
+
+.article_headline_txt{
+    position: absolute;
+    top: 30px;
+}
+
+.article_headline h1,h2,h3{
+    font-family: 'Space Mono', monospace;
+}
+
+.article_headline h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #FADE00;
+}
+
+.article_headline h2{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.article_headline h3{
+    position: absolute;
+    right: 8px;
+}
+
+.chernob{
+    position: absolute;
+    top: 23.5%;
+    left: 130px;
+    width: 250px;
+    text-align: center;
+    border: solid #092530 4px;
+    background: #092530;
+}
+
+.pop_article{
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    right: 0;
+    top: 163px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pop_article h4{
+    color: #FADE00;
+    font-style:italic;
+    font-weight: bold;
+    text-align: right;
+    margin: 5px 0px 5px 0px;
+}
+
+#pop_packet{
+    margin:20px 20px 0px 0px;
+}
+
+#pop_packet p{
+    width: 130px;
+}
+
+.social_links{
+    position: absolute;
+    top: 28.2%;
+    left: 7%;
+    width: 190px;
+    align-items: center;
+    border: solid 2px #092530;
+    box-shadow: 3px 3px 3px rgba(50,50,50,.5); 
+    
+}
+
+.social_links_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social_links_content h1{
+    font-weight: bold;
+    color: #fade00;
+    font-size: 20px;
+}
+
+.social_links_content p{
+    
+    font-weight: bold;
+    color: #fade00;
+}
+
+.social_links img{
+    flex: auto;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.social_links a{
+    border-radius: 10px;
+}
+
+.social_links a:hover{
+    background: #FF818F;
+}
+
+
+footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 200px 20px 20px 20px;
+    font-size: 14px;
+    width: 90%;
+}
+
+footer #footer_links{
+    display: inline;
+    background: none;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+}
+
+
+
+.container {
+    width: 95%;
+	margin: 0px 15px;
+}
+
+
+
+/*----------------------------------------------------------------------*
+
+	Responsive Styles
+
+*----------------------------------------------------------------------*/
+
+
+
+/* Apply these styles to all browser windows less than 800px */
+@media screen and (max-width: 800px) {
+	
+	.container {
+		width: 90%;
+	}
+	
+}
+
+
+
+
+/*----------------------------------------------------------------------*
+
+	Miscellaneous
+
+*----------------------------------------------------------------------*/
+
+
+
+/* Forces a box filled with floated elements to wrap around child elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
